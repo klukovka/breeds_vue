@@ -1,8 +1,8 @@
 <template>
   <div class="breed-item">
-    <div class="breed-name">Порода: {{ breed.breed }}</div>
+    <div class="breed-name">Breed: {{ breed.breed }}</div>
     <div class="subbreed-list" v-if="breed.subbreeds.length != 0">
-      <div class="subbreed-title">Подпороды:</div>
+      <div class="subbreed-title">Subbreed:</div>
       <subbreed-item
         :subbreed="subbreed"
         v-for="subbreed in breed.subbreeds"

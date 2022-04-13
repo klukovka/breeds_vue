@@ -1,5 +1,5 @@
 <template>
-  <p>Привет, {{ value.length == 0 ? 'незнакомец' : value }}</p>
+  <p>Hello, {{ value.length == 0 ? 'stranger' : value }}</p>
 </template>
 
 <script>

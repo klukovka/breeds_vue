@@ -1,6 +1,6 @@
 <template>
   <div class="breeds-list">
-    <p>Список пород</p>
+    <p>List of breeds</p>
     <div v-if="loading"><p>Loading...</p></div>
     <breed-item
       v-else
